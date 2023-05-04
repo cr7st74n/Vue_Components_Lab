@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="wyr">
     <h2> Please make your choice!</h2>
 
     <h3>{{ question }}</h3> <br>
@@ -31,6 +31,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+h1{
+  color: #932AF5;
+}
 h3 {
   margin: 40px 0 0;
 }
@@ -44,5 +47,11 @@ li {
 }
 a {
   color: #42b983;
+}
+.wyr{
+  color: beige;
+  background-color: #932AF5;
+  border: 2px black solid;
+
 }
 </style>
